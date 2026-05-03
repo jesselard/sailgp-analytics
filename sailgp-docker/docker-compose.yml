@@ -1,0 +1,49 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: sailgp-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: sailgp
+      POSTGRES_USER: sailgp
+      POSTGRES_PASSWORD: sailgp_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - sailgp-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sailgp -d sailgp"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: sailgp-metabase
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # Use Postgres to store Metabase's own app data (better than default H2)
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: sailgp
+      MB_DB_PORT: 5432
+      MB_DB_USER: sailgp
+      MB_DB_PASS: sailgp_pass
+      MB_DB_HOST: postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - sailgp-net
+
+networks:
+  sailgp-net:
+    driver: bridge
+
+volumes:
+  postgres_data:

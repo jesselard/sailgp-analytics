@@ -1,0 +1,49 @@
+event_id,season,season_num,event_name,location,country,date_start,date_end,event_winner
+S1E1,2019,1,Sydney Sail Grand Prix,Sydney,Australia,2019-02-15,2019-02-16,Australia
+S1E2,2019,1,San Francisco Sail Grand Prix,San Francisco,USA,2019-05-04,2019-05-05,Australia
+S1E3,2019,1,New York Sail Grand Prix,New York,USA,2019-06-21,2019-06-22,Japan
+S1E4,2019,1,Cowes Sail Grand Prix,Cowes,Great Britain,2019-08-10,2019-08-11,Australia
+S1E5,2019,1,Marseille Grand Final,Marseille,France,2019-09-20,2019-09-22,Australia
+S2E1,2021-22,2,Bermuda Sail Grand Prix,Bermuda,Bermuda,2021-04-24,2021-04-25,Great Britain
+S2E2,2021-22,2,Italy Sail Grand Prix,Taranto,Italy,2021-06-05,2021-06-06,Japan
+S2E3,2021-22,2,Great Britain Sail Grand Prix,Plymouth,Great Britain,2021-07-17,2021-07-18,Australia
+S2E4,2021-22,2,Denmark Sail Grand Prix,Aarhus,Denmark,2021-08-20,2021-08-21,Australia
+S2E5,2021-22,2,France Sail Grand Prix,Saint-Tropez,France,2021-09-11,2021-09-12,Japan
+S2E6,2021-22,2,Spain Sail Grand Prix,Cadiz,Spain,2021-10-09,2021-10-10,Australia
+S2E7,2021-22,2,Australia Sail Grand Prix,Sydney,Australia,2021-12-17,2021-12-18,New Zealand
+S2E8,2021-22,2,Season 2 Grand Final,San Francisco,USA,2022-05-14,2022-05-15,Australia
+S3E1,2022-23,3,Spain Sail Grand Prix,Cadiz,Spain,2022-09-23,2022-09-24,France
+S3E2,2022-23,3,Dubai Sail Grand Prix,Dubai,UAE,2022-11-12,2022-11-13,Australia
+S3E3,2022-23,3,Australia Sail Grand Prix,Sydney,Australia,2023-02-18,2023-02-19,Australia
+S3E4,2022-23,3,New Zealand Sail Grand Prix,Christchurch,New Zealand,2023-03-17,2023-03-18,New Zealand
+S3E5,2022-23,3,United States Sail Grand Prix,Chicago,USA,2023-05-20,2023-05-21,Australia
+S3E6,2022-23,3,Denmark Sail Grand Prix,Aarhus,Denmark,2023-08-19,2023-08-20,Denmark
+S3E7,2022-23,3,France Sail Grand Prix,Saint-Tropez,France,2023-09-09,2023-09-10,Great Britain
+S3E8,2022-23,3,Season 3 Grand Final,San Francisco,USA,2023-05-06,2023-05-07,Australia
+S4E1,2023-24,4,United States Sail Grand Prix,Chicago,USA,2023-06-16,2023-06-17,New Zealand
+S4E2,2023-24,4,United States Sail Grand Prix,Los Angeles,USA,2023-07-22,2023-07-23,Spain
+S4E3,2023-24,4,France Sail Grand Prix,Saint-Tropez,France,2023-09-09,2023-09-10,Great Britain
+S4E4,2023-24,4,Italy Sail Grand Prix,Taranto,Italy,2023-09-23,2023-09-24,Great Britain
+S4E5,2023-24,4,Spain Sail Grand Prix,Cadiz,Spain,2023-10-14,2023-10-15,USA
+S4E6,2023-24,4,Dubai Sail Grand Prix,Dubai,UAE,2023-12-09,2023-12-10,New Zealand
+S4E7,2023-24,4,Abu Dhabi Sail Grand Prix,Abu Dhabi,UAE,2024-01-13,2024-01-14,New Zealand
+S4E8,2023-24,4,Australia Sail Grand Prix,Sydney,Australia,2024-02-24,2024-02-25,Australia
+S4E9,2023-24,4,New Zealand Sail Grand Prix,Christchurch,New Zealand,2024-03-23,2024-03-24,New Zealand
+S4E10,2023-24,4,Bermuda Sail Grand Prix,Bermuda,Bermuda,2024-05-04,2024-05-05,Spain
+S4E11,2023-24,4,Canada Sail Grand Prix,Halifax,Canada,2024-06-01,2024-06-02,Great Britain
+S4E12,2023-24,4,New York Sail Grand Prix,New York,USA,2024-06-22,2024-06-23,New Zealand
+S4E13,2023-24,4,Season 4 Grand Final,San Francisco,USA,2024-07-13,2024-07-14,Spain
+S5E1,2024-25,5,Dubai Sail Grand Prix,Dubai,UAE,2024-11-23,2024-11-24,New Zealand
+S5E2,2024-25,5,New Zealand Sail Grand Prix,Auckland,New Zealand,2025-01-18,2025-01-19,Australia
+S5E3,2024-25,5,Australia Sail Grand Prix,Sydney,Australia,2025-02-08,2025-02-09,Great Britain
+S5E4,2024-25,5,United States Sail Grand Prix,Los Angeles,USA,2025-03-15,2025-03-16,Canada
+S5E5,2024-25,5,United States Sail Grand Prix,San Francisco,USA,2025-03-22,2025-03-23,Spain
+S5E6,2024-25,5,Brazil Sail Grand Prix,Rio de Janeiro,Brazil,2025-05-03,2025-05-04,
+S5E7,2024-25,5,New York Sail Grand Prix,New York,USA,2025-06-07,2025-06-08,Spain
+S5E8,2024-25,5,Great Britain Sail Grand Prix,Portsmouth,Great Britain,2025-07-19,2025-07-20,New Zealand
+S5E9,2024-25,5,Germany Sail Grand Prix,Sassnitz,Germany,2025-08-16,2025-08-17,France
+S5E10,2024-25,5,Italy Sail Grand Prix,Taranto,Italy,2025-09-06,2025-09-07,
+S5E11,2024-25,5,France Sail Grand Prix,Saint-Tropez,France,2025-09-12,2025-09-13,Great Britain
+S5E12,2024-25,5,Switzerland Sail Grand Prix,Geneva,Switzerland,2025-09-20,2025-09-21,Germany
+S5E13,2024-25,5,Spain Sail Grand Prix,Cadiz,Spain,2025-10-04,2025-10-05,Great Britain
+S5E14,2024-25,5,Season 5 Grand Final,Abu Dhabi,UAE,2025-11-29,2025-11-30,Great Britain

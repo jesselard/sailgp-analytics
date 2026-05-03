@@ -1,0 +1,43 @@
+season,season_num,team,skipper,season_finish,season_points,season_champion
+2019,1,Australia,Tom Slingsby,1,229,TRUE
+2019,1,Japan,Nathan Outteridge,2,223,FALSE
+2019,1,China,Phil Robertson,3,171,FALSE
+2019,1,Great Britain,Dylan Fletcher,4,169,FALSE
+2019,1,France,Billy Besson,5,164,FALSE
+2019,1,USA,Rome Kirby,6,163,FALSE
+2021-22,2,Australia,Tom Slingsby,1,,TRUE
+2021-22,2,Great Britain,Ben Ainslie,2,,FALSE
+2021-22,2,Denmark,Nicolai Sehested,3,,FALSE
+2021-22,2,New Zealand,Peter Burling,4,,FALSE
+2021-22,2,Japan,Nathan Outteridge,5,,FALSE
+2021-22,2,France,Billy Besson,6,,FALSE
+2021-22,2,USA,Jimmy Spithill,7,,FALSE
+2021-22,2,Spain,Diego Botin,8,,FALSE
+2022-23,3,Australia,Tom Slingsby,1,84,TRUE
+2022-23,3,New Zealand,Peter Burling,2,73,FALSE
+2022-23,3,France,Quentin Delapierre,3,69,FALSE
+2022-23,3,Great Britain,Ben Ainslie,4,68,FALSE
+2022-23,3,Denmark,Nicolai Sehested,5,60,FALSE
+2022-23,3,Canada,Phil Robertson,6,59,FALSE
+2022-23,3,USA,Jimmy Spithill,7,57,FALSE
+2022-23,3,Switzerland,Sebastien Schneiter,8,29,FALSE
+2022-23,3,Spain,Diego Botin,9,29,FALSE
+2023-24,4,Spain,Diego Botin,1,,TRUE
+2023-24,4,Australia,Tom Slingsby,2,,FALSE
+2023-24,4,New Zealand,Peter Burling,3,,FALSE
+2023-24,4,Denmark,Nicolai Sehested,4,,FALSE
+2023-24,4,Great Britain,Giles Scott,5,,FALSE
+2023-24,4,Canada,Phil Robertson,6,,FALSE
+2023-24,4,France,Quentin Delapierre,7,,FALSE
+2023-24,4,USA,Taylor Canfield,8,,FALSE
+2023-24,4,Germany,Erik Heil,9,,FALSE
+2023-24,4,Switzerland,Nathan Outteridge,10,,FALSE
+2024-25,5,Great Britain,Dylan Fletcher,1,,TRUE
+2024-25,5,Australia,Tom Slingsby,2,,FALSE
+2024-25,5,New Zealand,Peter Burling,3,,FALSE
+2024-25,5,Spain,Diego Botin,4,,FALSE
+2024-25,5,France,Quentin Delapierre,5,,FALSE
+2024-25,5,Canada,Phil Robertson,6,,FALSE
+2024-25,5,Germany,Erik Heil,7,,FALSE
+2024-25,5,USA,Taylor Canfield,8,,FALSE
+2024-25,5,Denmark,Nicolai Sehested,9,,FALSE
