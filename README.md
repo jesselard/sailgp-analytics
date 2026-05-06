@@ -1,6 +1,6 @@
-# SailGP Analytics — Metabase AI Hackathon
+# SailGP Analytics - Metabase AI Hackathon
 
-A full analytics pipeline for SailGP racing — from raw results to ML predictions to a live Metabase dashboard queryable by Claude via the Metabase MCP server.
+A full analytics pipeline for SailGP racing from raw results to ML predictions to a live Metabase dashboard queryable by Claude via the Metabase MCP server.
 
 ---
 
@@ -18,16 +18,13 @@ SailGP is the world's fastest sail racing league, running since 2019. There's no
 
 ## The AI angle
 
-Claude (via Anthropic's Cowork) designed the database schema, wrote the scraper, built the weather fetcher, engineered the ML features, and wrote every SQL query in this project. Then, via the **Metabase MCP server** (new in Metabase v0.60), Claude connects back to the live data and answers questions directly:
+Via the **Metabase MCP server** (new in Metabase v0.60), Claude connects to the live data and answers questions directly:
 
 ```
 > Which team performs best in heavy winds, and does that match their Season 6 prediction?
-> Australia is leading Season 6 — is that consistent with their historical record or a surprise?
+> Australia is leading Season 6; is that consistent with their historical record or a surprise?
 > Who are the heavy air specialists vs light air specialists?
 ```
-
-Claude built it. Claude can query it. The loop is closed.
-
 ---
 
 ## Stack
@@ -122,7 +119,7 @@ cd sailgp-docker && claude
 - **Algorithm:** Ridge Regression (best MAE in cross-validation: ~1.25 finish positions)
 - **Validation:** Leave-One-Season-Out (trains on 5 seasons, predicts the 6th, rotates)
 - **Features:** rolling avg finish (last 3, last 6 events), win rate, podium rate, finish consistency, home venue flag, venue-specific history, momentum (events since last win), weather (avg wind/gusts for venue)
-- **Caveat:** Sweden and Italy are new in Season 6 with no historical data — their predictions rely on median imputation
+- **Caveat:** Sweden and Italy are new in Season 6 with no historical data so their predictions rely on median imputation
 
 **Season 6 predictions (as of 4 events):**
 
@@ -151,7 +148,3 @@ docker exec -i sailgp-postgres psql -U sailgp -d sailgp < load_predictions.sql
 ```
 
 Metabase queries update automatically on next load.
-
----
-
-*Built with Claude (Anthropic Cowork) for the [Metabase AI Hackathon](https://www.metabase.com/blog/metabase-ai-hackathon)*
